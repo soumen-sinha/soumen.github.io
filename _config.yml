@@ -11,7 +11,6 @@ name: "Soumen Sinha"
 description: "Master's in Data Science & AI at TU Delft"
 url: "https://soumen.github.io"
 repository: "soumen/soumen.github.io"
-#logo: ""
 masthead_title: "Soumen Sinha"
 breadcrumbs: true
 words_per_minute: 200
@@ -54,21 +53,22 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/soumen_sinha/?hl=en"
 
-Navigation Bar
-Requires _data/navigation.yml
-Example:
-_data/navigation.yml:
-main:
-  - title: "Home"
-    url: /
-  - title: "Publications"
-    url: /publications/
-  - title: "Experience"
-    url: /experience/
-  - title: "Education"
-    url: /education/
-  - title: "Teaching"
-    url: /teaching/
+# Navigation Bar (uses _data/navigation.yml)
+# File: _data/navigation.yml
+navigation:
+  main:
+    - title: "About"
+      url: /
+    - title: "Research"
+      url: /#research-interests
+    - title: "News"
+      url: /#news
+    - title: "CV"
+      url: /assets/Soumen_CV.pdf
+    - title: "Contact"
+      url: mailto:S.Sinha-6@student.tudelft.nl
+
+
 
 # Plugins
 plugins:
@@ -111,7 +111,7 @@ defaults:
       read_time: true
       share: true
       related: true
-      custom_css: custom  # 👈 Added this line to include custom.css
+      custom_css: custom  # ← Enables your custom.css
 
 # Include & Exclude
 include:
