@@ -1,4 +1,124 @@
-title: My Site
-description: A GitHub Pages site using Minima
-author: Your Name
-theme: minima
+# Theme Settings
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default"
+
+# Site Settings
+locale: "en-US"
+title: "Soumen Sinha"
+title_separator: "-"
+subtitle: "Master’s Student at TU Delft | AI | ML"
+name: "Soumen Sinha"
+description: "Master's in Data Science & AI at TU Delft"
+url: "https://soumen.github.io"
+repository: "soumen/soumen.github.io"
+#logo: ""
+masthead_title: "Soumen Sinha"
+breadcrumbs: true
+words_per_minute: 200
+search: true
+
+# Author
+author:
+  name: "Soumen Sinha"
+  avatar: "/assets/images/avatar.jpg"
+  bio: "Master's student at TU Delft studying AI and ML."
+  location: "Delft, Netherlands"
+  email: "S.Sinha-6@student.tudelft.nl"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:S.Sinha-6@student.tudelft.nl"
+    - label: "Google Scholar"
+      icon: "ai ai-google-scholar"
+      url: "https://scholar.google.com/citations?user=zXTZqf8AAAAJ&hl=en"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/soumen"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/soumen_sinha/?hl=en"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/soumen-sinha-b11670211/"
+
+# Footer
+footer:
+  links:
+    - label: "Google Scholar"
+      icon: "ai ai-google-scholar"
+      url: "https://scholar.google.com/citations?user=zXTZqf8AAAAJ&hl=en"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/soumen"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/soumen_sinha/?hl=en"
+
+Navigation Bar
+Requires _data/navigation.yml
+Example:
+_data/navigation.yml
+main:
+  - title: "Home"
+    url: /
+  - title: "Publications"
+    url: /publications/
+  - title: "Experience"
+    url: /experience/
+  - title: "Education"
+    url: /education/
+  - title: "Teaching"
+    url: /teaching/
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Markdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+
+# Pagination
+paginate: 5
+paginate_path: /page:num/
+
+# Archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+      related: true
+
+# Include & Exclude
+include:
+  - _pages
+exclude:
+  - CHANGELOG.md
+  - vendor
+  - node_modules
+  - tmp
+  - Gemfile
+  - Gemfile.lock
+
+# Output Settings
+permalink: /:categories/:title/
+encoding: "utf-8"
