@@ -54,8 +54,8 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/soumen_sinha/?hl=en"
 
-Navigation Bar:
-Requires _data/navigation.yml:
+Navigation Bar
+Requires _data/navigation.yml
 Example:
 _data/navigation.yml:
 main:
@@ -77,6 +77,10 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+
+# Sass
+sass:
+  style: compressed
 
 # Markdown
 markdown: kramdown
@@ -107,6 +111,7 @@ defaults:
       read_time: true
       share: true
       related: true
+      custom_css: custom  # 👈 Added this line to include custom.css
 
 # Include & Exclude
 include:
