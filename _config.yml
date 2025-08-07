@@ -23,7 +23,7 @@ author:
   avatar: "/assets/images/avatar.jpg"
   bio: "Master's student at TU Delft studying AI and ML."
   location: "Delft, Netherlands"
-  email: "you@example.com"  # Replace with your real email
+  email: "S.Sinha-6@student.tudelft.nl"  # Replace with your real email
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
@@ -39,7 +39,7 @@ author:
       url: "https://www.instagram.com/soumen_sinha/?hl=en"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/YOUR_USERNAME"  # Replace with real username
+      url: "https://www.linkedin.com/in/soumen-sinha-b11670211/"  # Replace with real username
 
 # Footer
 footer:
