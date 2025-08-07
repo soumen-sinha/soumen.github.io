@@ -54,10 +54,10 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/soumen_sinha/?hl=en"
 
-Navigation Bar
-Requires _data/navigation.yml
+Navigation Bar:
+Requires _data/navigation.yml:
 Example:
-_data/navigation.yml
+_data/navigation.yml:
 main:
   - title: "Home"
     url: /
