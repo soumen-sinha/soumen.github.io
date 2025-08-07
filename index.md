@@ -1,5 +1,3 @@
-
-
 ---
 layout: home
 author_profile: true
@@ -7,7 +5,7 @@ title: "Soumen Sinha"
 header:
   overlay_color: "#000"
   overlay_filter: "0.3"
-  overlay_image: /assets/images/banner.jpg  # Optional banner image
+  #overlay_image: /assets/images/banner.jpg  # Optional banner image
   caption: "Welcome to my academic website"
 ---
 
