@@ -99,6 +99,7 @@ defaults:
 include:
   - _pages
 exclude:
+  - CHANGELOG.md
   - vendor
   - node_modules
   - tmp
