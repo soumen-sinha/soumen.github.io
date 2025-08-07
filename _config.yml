@@ -20,8 +20,7 @@ search: true
 author:
   name: "Soumen Sinha"
   avatar: "/assets/images/avatar.jpg"
-  bio: "Master's student at TU Delft studying AI and ML."
-  location: "Delft, Netherlands"
+  bio: 'MS Data Science and AI at <a href="https://www.tudelft.nl" target="_blank">TU Delft</a>.'
   email: "S.Sinha-6@student.tudelft.nl"
   links:
     - label: "Email"
