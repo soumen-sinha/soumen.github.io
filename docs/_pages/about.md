@@ -23,11 +23,10 @@ Outside of academics, I enjoy playing and watching football and am a passionate 
 
 ## Research Interests
 
-- Representation Learning in NLP and Vision
-- Hyperbolic Neural Networks and Geometric Deep Learning
-- Scene Understanding and Spatial Reasoning
-- Vision-Language Models
-- Generative Models (Diffusion, NeRF, GANs)
+- Fundamental Machine Learning and Deep Learning 
+- Generative AI
+- LLMs and Agentic AI
+- NLP and Visual Language Models
 
 ---
 
