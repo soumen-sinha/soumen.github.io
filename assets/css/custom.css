@@ -1,11 +1,12 @@
-/* Remove the second line above page content */
-.page__content {
-  border-top: none !important;
-  box-shadow: none !important;
-}
-.page__hero {
+/* Remove the hero line and shadow */
+.page__hero, .page__hero--overlay {
   border-bottom: none !important;
   box-shadow: none !important;
   margin-bottom: 0 !important;
   padding-bottom: 0 !important;
+}
+
+/* Optional: Remove any leftover margin on the main page content */
+.wrap {
+  margin-top: 0 !important;
 }
