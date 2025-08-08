@@ -1,8 +1,16 @@
 <!-- Custom head content -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
-<!-- Your existing avatar lightbox styles -->
 <style>
+  /* Remove top border/line from header */
+  .masthead {
+    border-top: none !important;
+  }
+  
+  .masthead__inner-wrap {
+    border-top: none !important;
+  }
+  
   /* Style Google Scholar icon with brand color */
   .author__urls .ai-google-scholar:before {
     color: #4285f4;
@@ -107,7 +115,7 @@
     --background-color: #1a1a1a;
     --text-color: #e0e0e0;
     --border-color: #444;
-    --sidebar-background: #1a1a1a;  /* Changed to match main background */
+    --sidebar-background: #1a1a1a;
     --link-color: #4da6ff;
     --hover-background: #333;
   }
@@ -203,11 +211,6 @@
   
   [data-theme="dark"] a:hover {
     color: #66b3ff !important;
-  }
-  
-  /* Search */
-  [data-theme="dark"] .search__toggle {
-    color: var(--text-color) !important;
   }
   
   /* Footer */
