@@ -23,12 +23,12 @@ author:
   bio: 'MS Data Science and AI at <a href="https://www.tudelft.nl" target="_blank">TU Delft</a>.'
   email: "S.Sinha-6@student.tudelft.nl"
   links:
+    - label: "Google Scholar"
+      icon: "fas fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=zXTZqf8AAAAJ&hl=en"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:S.Sinha-6@student.tudelft.nl"
-    - label: "Google Scholar"
-      icon: "ai ai-google-scholar"
-      url: "https://scholar.google.com/citations?user=zXTZqf8AAAAJ&hl=en"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/soumen"

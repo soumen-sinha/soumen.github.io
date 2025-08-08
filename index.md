@@ -68,7 +68,7 @@ Outside of academics, I enjoy playing and watching football and am a passionate 
 - Paper got accepted at [ICETCI](https://ietcint.com/Ietcint2023/home). ([Paper](https://ieeexplore.ieee.org/abstract/document/10331187))
 - President of the Inquizitive Club, Mahindra University
 
-### 2022
+
 
 -
 
