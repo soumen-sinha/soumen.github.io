@@ -112,19 +112,54 @@
     --hover-background: #333;
   }
   
-  /* Apply dark mode styles */
+  /* Apply dark mode styles - COMPREHENSIVE VERSION */
+  [data-theme="dark"] html,
   [data-theme="dark"] body {
-    background-color: var(--background-color);
-    color: var(--text-color);
+    background-color: var(--background-color) !important;
+    color: var(--text-color) !important;
   }
   
-  [data-theme="dark"] .masthead {
-    background-color: var(--sidebar-background);
+  /* Main layout containers */
+  [data-theme="dark"] .initial-content,
+  [data-theme="dark"] .page,
+  [data-theme="dark"] .page__inner-wrap,
+  [data-theme="dark"] .page__content,
+  [data-theme="dark"] .page__main,
+  [data-theme="dark"] .layout--single {
+    background-color: var(--background-color) !important;
+    color: var(--text-color) !important;
+  }
+  
+  /* Navigation */
+  [data-theme="dark"] .masthead,
+  [data-theme="dark"] .greedy-nav {
+    background-color: var(--sidebar-background) !important;
     border-bottom: 1px solid var(--border-color);
   }
   
-  [data-theme="dark"] .sidebar {
-    background-color: var(--sidebar-background);
+  [data-theme="dark"] .greedy-nav a,
+  [data-theme="dark"] .masthead__menu a {
+    color: var(--text-color) !important;
+  }
+  
+  [data-theme="dark"] .greedy-nav a:hover,
+  [data-theme="dark"] .masthead__menu a:hover {
+    background-color: var(--hover-background) !important;
+  }
+  
+  /* Sidebar */
+  [data-theme="dark"] .sidebar,
+  [data-theme="dark"] .author__content {
+    background-color: var(--sidebar-background) !important;
+    color: var(--text-color) !important;
+  }
+  
+  [data-theme="dark"] .author__name {
+    color: var(--text-color) !important;
+  }
+  
+  [data-theme="dark"] .author__bio {
+    color: var(--text-color) !important;
   }
   
   [data-theme="dark"] .author__avatar img {
@@ -132,44 +167,90 @@
   }
   
   [data-theme="dark"] .author__urls {
-    background-color: var(--hover-background);
+    background-color: var(--hover-background) !important;
+    color: var(--text-color) !important;
   }
   
-  [data-theme="dark"] .page__content {
-    background-color: var(--background-color);
+  [data-theme="dark"] .author__urls a {
+    color: var(--text-color) !important;
   }
   
+  /* Content headings and text */
   [data-theme="dark"] .page__title,
   [data-theme="dark"] h1, 
   [data-theme="dark"] h2, 
   [data-theme="dark"] h3, 
-  [data-theme="dark"] h4 {
-    color: var(--text-color);
+  [data-theme="dark"] h4,
+  [data-theme="dark"] h5,
+  [data-theme="dark"] h6 {
+    color: var(--text-color) !important;
   }
   
+  [data-theme="dark"] p,
+  [data-theme="dark"] li,
+  [data-theme="dark"] span {
+    color: var(--text-color) !important;
+  }
+  
+  /* Links */
   [data-theme="dark"] a {
-    color: var(--link-color);
+    color: var(--link-color) !important;
   }
   
-  [data-theme="dark"] .greedy-nav {
-    background-color: var(--sidebar-background);
+  [data-theme="dark"] a:hover {
+    color: #66b3ff !important;
   }
   
-  [data-theme="dark"] .greedy-nav a {
-    color: var(--text-color);
-  }
-  
+  /* Search */
   [data-theme="dark"] .search__toggle {
-    color: var(--text-color);
+    color: var(--text-color) !important;
   }
   
+  /* Footer */
+  [data-theme="dark"] .page__footer {
+    background-color: var(--sidebar-background) !important;
+    color: var(--text-color) !important;
+  }
+  
+  [data-theme="dark"] .page__footer-copyright {
+    color: var(--text-color) !important;
+  }
+  
+  /* Lightbox */
   [data-theme="dark"] .lightbox {
     background-color: rgba(0, 0, 0, 0.9);
   }
   
-  [data-theme="dark"] .page__footer {
-    background-color: var(--sidebar-background);
-    color: var(--text-color);
+  /* Code blocks */
+  [data-theme="dark"] .highlight,
+  [data-theme="dark"] pre {
+    background-color: #2d2d2d !important;
+    color: var(--text-color) !important;
+  }
+  
+  [data-theme="dark"] code {
+    background-color: var(--hover-background) !important;
+    color: var(--text-color) !important;
+  }
+  
+  /* Breadcrumbs */
+  [data-theme="dark"] .breadcrumbs {
+    background-color: var(--sidebar-background) !important;
+  }
+  
+  [data-theme="dark"] .breadcrumbs a {
+    color: var(--link-color) !important;
+  }
+  
+  /* Tables */
+  [data-theme="dark"] table {
+    background-color: var(--sidebar-background) !important;
+  }
+  
+  [data-theme="dark"] th,
+  [data-theme="dark"] td {
+    color: var(--text-color) !important;
+    border-color: var(--border-color) !important;
   }
 </style>
 
