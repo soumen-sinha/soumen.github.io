@@ -2,21 +2,48 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
 <style>
-  /* Remove top border/line from header - COMPREHENSIVE */
+  /* Remove top border/line from header - NUCLEAR OPTION */
   .masthead,
   .masthead__inner-wrap,
-  .greedy-nav {
+  .greedy-nav,
+  .site-nav,
+  .masthead__menu,
+  body::before,
+  html::before {
     border-top: none !important;
     border-top-width: 0 !important;
+    box-shadow: none !important;
+  }
+  
+  /* Remove any pseudo-elements that might create lines */
+  .masthead::before,
+  .masthead::after,
+  .masthead__inner-wrap::before,
+  .masthead__inner-wrap::after,
+  .greedy-nav::before,
+  .greedy-nav::after {
+    display: none !important;
+    border: none !important;
+    content: none !important;
   }
   
   /* Dark mode specific - remove any top borders */
   [data-theme="dark"] .masthead,
   [data-theme="dark"] .masthead__inner-wrap,
-  [data-theme="dark"] .greedy-nav {
+  [data-theme="dark"] .greedy-nav,
+  [data-theme="dark"] .site-nav,
+  [data-theme="dark"] .masthead__menu {
     border-top: none !important;
     border-top-width: 0 !important;
     box-shadow: none !important;
+  }
+  
+  /* Remove dark mode pseudo-elements */
+  [data-theme="dark"] .masthead::before,
+  [data-theme="dark"] .masthead::after,
+  [data-theme="dark"] .masthead__inner-wrap::before,
+  [data-theme="dark"] .masthead__inner-wrap::after {
+    display: none !important;
   }
   
   /* Style Google Scholar icon with brand color */
