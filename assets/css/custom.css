@@ -1,11 +1,6 @@
 /* ✅ REMOVE the extra horizontal line below navbar */
-.page__hero,
-.page__hero--overlay,
-.page__hero--overlay::after {
+[data-theme="dark"] .masthead,
+[data-theme="dark"] .masthead_inner-wrap {
   border-bottom: none !important;
   box-shadow: none !important;
-  background: transparent !important;
-  margin-bottom: 0 !important;
-  padding-bottom: 0 !important;
-  height: auto !important;
 }
