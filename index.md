@@ -17,7 +17,7 @@ My current research focuses on fundamental ML and Deep learning, image segmentat
 
 Previously, I completed my undergraduate studies in Computer Science at <a href="https://www.mahindrauniversity.edu.in/" target="_blank"><strong>Mahindra University</strong></a>, India. During my undergrad I worked with Prof Neha Bharill, Prof Om Prakash Patel, Prof Rahul Roy and Prof Mahipal Jetta.
 
-Outside of academics, I enjoy playing and watching football and am a passionate <strong>FC Barcelona</strong> supporter and Messi fan. I also love to travel, enjoy music, and play both the tabla and keyboard.
+Outside of academics, I enjoy playing and watching football and am a passionate FC Barcelona supporter and Messi fan. I also love to travel, enjoy music, and play both the tabla and keyboard.
 
 ---
 
