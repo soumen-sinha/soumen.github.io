@@ -33,7 +33,7 @@ Outside of academics, I enjoy playing and watching football and am a passionate 
 
 ## News
 
-### **2025**
+### 2025
 
 - (4/08/2025) "Evolutionary Feature-wise Thresholding for Binary Representation of NLP Embeddings" is now available at [arxiv](https://arxiv.org/abs/2507.17025)
 - (4/08/2025) "A novel approach to navigate the taxonomic hierarchy to address the Open-World Scenarios in Medicinal Plant Classification" is now available at [arxiv](https://arxiv.org/abs/2502.17289)
@@ -45,7 +45,7 @@ Outside of academics, I enjoy playing and watching football and am a passionate 
 
 
 
-### **2024**
+### 2024
 
 - (Nov 2024) Graduate Teaching Assistant for the course Cryptography and Network Security
 - (3/10/2024) Presented our [work](https://drive.google.com/file/d/1tughOHtIrriKH1TCzFRnAF-j6Tqvot6t/view?usp=sharing) at [IEEE SMC](https://ieeesmc2024.org/home).
@@ -57,18 +57,18 @@ Outside of academics, I enjoy playing and watching football and am a passionate 
 - 3 papers got accepted at 48th [IEEE COMPSAC](https://ieeecompsac.computer.org/2024/). ([Paper-1](https://ieeexplore.ieee.org/abstract/document/10633586), [Paper-2](https://ieeexplore.ieee.org/abstract/document/10633511), [Paper-3](https://ieeexplore.ieee.org/abstract/document/10633455))
 
 
-### **2023**
+### 2023
 
 
-- Paper got accepted at 26th [SNPD](https://acisinternational.org/conferences/snpd-2025-summeri/). [Paper](https://ieeexplore.ieee.org/abstract/document/10466300)
-- Paper got accepted at [IEEE SSCI, Mexico](https://attend.ieee.org/ssci-2023/). [Paper](https://ieeexplore.ieee.org/abstract/document/10371818)
-- Paper got accepted at [CSAI](https://www.csai.org/2023.html). [Paper](https://dl.acm.org/doi/abs/10.1145/3638584.3638675)
+- Paper got accepted at 26th [SNPD](https://acisinternational.org/conferences/snpd-2025-summeri/). ([Paper](https://ieeexplore.ieee.org/abstract/document/10466300))
+- Paper got accepted at [IEEE SSCI, Mexico](https://attend.ieee.org/ssci-2023/). ([Paper](https://ieeexplore.ieee.org/abstract/document/10371818))
+- Paper got accepted at [CSAI](https://www.csai.org/2023.html). ([Paper](https://dl.acm.org/doi/abs/10.1145/3638584.3638675))
 - Head of Drone Development Team, Aero Club
 - Best presenter award for our work at [ICETCI](https://ietcint.com/Ietcint2023/home). 
-- Paper got accepted at [ICETCI](https://ietcint.com/Ietcint2023/home). [Paper](https://ieeexplore.ieee.org/abstract/document/10331187)
+- Paper got accepted at [ICETCI](https://ietcint.com/Ietcint2023/home). ([Paper](https://ieeexplore.ieee.org/abstract/document/10331187))
 - President of the Inquizitive Club, Mahindra University
 
-### **2022**
+### 2022
 
 -
 
