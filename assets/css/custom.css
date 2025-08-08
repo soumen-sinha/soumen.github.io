@@ -3,3 +3,9 @@
   border-top: none !important;
   box-shadow: none !important;
 }
+.page__hero {
+  border-bottom: none !important;
+  box-shadow: none !important;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
