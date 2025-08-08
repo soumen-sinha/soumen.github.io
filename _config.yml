@@ -100,6 +100,7 @@ defaults:
       read_time: true
       share: true
       related: true
+      toc: false
   # Pages defaults  
   - scope:
       path: "_pages"

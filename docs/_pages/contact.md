@@ -31,7 +31,7 @@ The best way to connect with me is to schedule a meeting directly through my cal
    **General**: [soumensinha18@gmail.com](mailto:your.email@gmail.com) 
 ### Social
    **LinkedIn**: [Connect with me on LinkedIn](https://www.linkedin.com/in/soumen-sinha-b11670211/)  
-   **Insta** [Profile](https://www.instagram.com/soumen_sinha/?hl=en)
+   **Insta**: [Profile](https://www.instagram.com/soumen_sinha/?hl=en)
 
 ---
 
