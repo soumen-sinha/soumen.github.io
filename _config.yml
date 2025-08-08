@@ -6,7 +6,7 @@ minimal_mistakes_skin: "default"
 locale: "en-US"
 title: "Soumen Sinha"
 title_separator: "-"
-subtitle: "Master’s Student at TU Delft"
+subtitle: "Master's Student at TU Delft"
 name: "Soumen Sinha"
 description: "Master's in Data Science & AI at TU Delft"
 url: "https://soumen.github.io"
@@ -52,23 +52,6 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/soumen_sinha/?hl=en"
 
-# Navigation Bar (uses _data/navigation.yml)
-# File: _data/navigation.yml
-navigation:
-  main:
-    - title: "About"
-      url: /about/
-    - title: "Research"
-      url: /research/
-    - title: "News"
-      url: /#news
-    - title: "CV"
-      url: /assets/Soumen_CV.pdf
-    - title: "Contact"
-      url: mailto:S.Sinha-6@student.tudelft.nl
-
-
-
 # Plugins
 plugins:
   - jekyll-paginate
@@ -99,25 +82,37 @@ tag_archive:
   type: liquid
   path: /tags/
 
-# Defaults
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Defaults - FIXED SECTION
 defaults:
+  # Posts defaults
   - scope:
       path: ""
       type: posts
-      path: "/_pages"
     values:
       layout: single
       author_profile: true
       read_time: true
       share: true
       related: true
+  # Pages defaults  
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
       permalink: /:basename/
-      custom_css: custom  # ← Enables your custom.css
+      custom_css: custom
 
 # Include & Exclude
 include:
-  - docs
-  - docs/_pages
+  - _pages
 exclude:
   - CHANGELOG.md
   - vendor
@@ -125,12 +120,6 @@ exclude:
   - tmp
   - Gemfile
   - Gemfile.lock
-
-collections:
-  pages:
-    output: true
-    permalink: /:path/
-
 
 # Output Settings
 permalink: /:categories/:title/
