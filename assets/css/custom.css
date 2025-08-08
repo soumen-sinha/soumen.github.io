@@ -1,12 +1,11 @@
-/* Remove the hero section's bottom border and shadow */
-.page__hero, .page__hero--overlay {
+/* ✅ REMOVE the extra horizontal line below navbar */
+.page__hero,
+.page__hero--overlay,
+.page__hero--overlay::after {
   border-bottom: none !important;
   box-shadow: none !important;
+  background: transparent !important;
   margin-bottom: 0 !important;
   padding-bottom: 0 !important;
-}
-
-/* Optional: Remove unwanted top margin */
-.page {
-  margin-top: 0 !important;
+  height: auto !important;
 }
