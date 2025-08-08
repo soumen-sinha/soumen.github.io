@@ -114,6 +114,7 @@ defaults:
 
 # Include & Exclude
 include:
+  - docs
   - docs/_pages
 exclude:
   - CHANGELOG.md
