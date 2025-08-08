@@ -12,8 +12,8 @@ tags: [experience, internships, research, industry, collaboration]
 
 
 **Absolute Audio Labs** | *June 2024 - Present* | Leiden, Netherlands
-- Working on audio scene classification for out-of-distribution data on ARM Cortex M3 embedded devices
-- Developing efficient machine learning models for resource-constrained environments
+- Working on AI based audio scene classification for out-of-distribution data on ARM Cortex M3 embedded devices
+- Developing efficient deep learning models for resource-constrained environments
 - Implementing real-time audio processing solutions for embedded systems
 
 
