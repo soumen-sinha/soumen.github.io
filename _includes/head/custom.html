@@ -1,5 +1,22 @@
-<!-- Avatar lightbox styles -->
+<!-- Custom head content -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+<!-- Your existing avatar lightbox styles -->
 <style>
+  /* Style Google Scholar icon with brand color */
+  .author__urls .ai-google-scholar:before {
+    color: #4285f4;
+  }
+  
+  .author__urls a:hover .ai-google-scholar:before {
+    color: #1a73e8;
+  }
+  
+  .author__urls .ai {
+    font-size: 1.2em;
+  }
+  
+  /* Avatar lightbox styles */
   .author__avatar img {
     cursor: pointer;
     transition: transform 0.2s ease;
@@ -9,7 +26,6 @@
     transform: scale(1.05);
   }
   
-  /* Lightbox overlay */
   .lightbox {
     display: none;
     position: fixed;
@@ -31,15 +47,7 @@
     max-height: 60%;
     border-radius: 10px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
-    cursor: default; /* Prevents click cursor on the image itself */
-  }
-  
-  /* Mobile responsive - make it even smaller on mobile */
-  @media (max-width: 768px) {
-    .lightbox img {
-      max-width: 80%;
-      max-height: 80%;
-    }
+    cursor: default;
   }
   
   .lightbox .close {
@@ -56,11 +64,124 @@
   .lightbox .close:hover {
     opacity: 0.7;
   }
+  
+  @media (max-width: 768px) {
+    .lightbox img {
+      max-width: 80%;
+      max-height: 80%;
+    }
+  }
+  
+  /* Dark mode toggle button */
+  .dark-mode-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    background: var(--background-color, #fff);
+    border: 2px solid var(--border-color, #ddd);
+    border-radius: 25px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 18px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+  
+  .dark-mode-toggle:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Light mode (default) */
+  :root {
+    --background-color: #fff;
+    --text-color: #333;
+    --border-color: #ddd;
+    --sidebar-background: #f8f9fa;
+    --link-color: #0073e6;
+    --hover-background: #f5f5f5;
+  }
+  
+  /* Dark mode variables */
+  [data-theme="dark"] {
+    --background-color: #1a1a1a;
+    --text-color: #e0e0e0;
+    --border-color: #444;
+    --sidebar-background: #2d2d2d;
+    --link-color: #4da6ff;
+    --hover-background: #333;
+  }
+  
+  /* Apply dark mode styles */
+  [data-theme="dark"] body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  [data-theme="dark"] .masthead {
+    background-color: var(--sidebar-background);
+    border-bottom: 1px solid var(--border-color);
+  }
+  
+  [data-theme="dark"] .sidebar {
+    background-color: var(--sidebar-background);
+  }
+  
+  [data-theme="dark"] .author__avatar img {
+    border-color: var(--border-color);
+  }
+  
+  [data-theme="dark"] .author__urls {
+    background-color: var(--hover-background);
+  }
+  
+  [data-theme="dark"] .page__content {
+    background-color: var(--background-color);
+  }
+  
+  [data-theme="dark"] .page__title,
+  [data-theme="dark"] h1, 
+  [data-theme="dark"] h2, 
+  [data-theme="dark"] h3, 
+  [data-theme="dark"] h4 {
+    color: var(--text-color);
+  }
+  
+  [data-theme="dark"] a {
+    color: var(--link-color);
+  }
+  
+  [data-theme="dark"] .greedy-nav {
+    background-color: var(--sidebar-background);
+  }
+  
+  [data-theme="dark"] .greedy-nav a {
+    color: var(--text-color);
+  }
+  
+  [data-theme="dark"] .search__toggle {
+    color: var(--text-color);
+  }
+  
+  [data-theme="dark"] .lightbox {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  
+  [data-theme="dark"] .page__footer {
+    background-color: var(--sidebar-background);
+    color: var(--text-color);
+  }
 </style>
 
-<!-- Avatar lightbox JavaScript -->
+<!-- Dark Mode Toggle Button -->
+<div class="dark-mode-toggle" id="darkModeToggle">
+  <span id="toggleIcon">🌙</span>
+</div>
+
+<!-- Combined JavaScript -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+  // Avatar lightbox functionality
   const lightboxHTML = `
     <div id="lightbox" class="lightbox">
       <span class="close">&times;</span>
@@ -76,8 +197,8 @@ document.addEventListener('DOMContentLoaded', function() {
   const profileImg = document.querySelector('.author__avatar img');
   if (profileImg) {
     profileImg.addEventListener('click', function(event) {
-      event.preventDefault(); // Prevent any default navigation
-      event.stopPropagation(); // Stop event bubbling
+      event.preventDefault();
+      event.stopPropagation();
       
       lightboxImg.src = this.src;
       lightbox.style.display = 'block';
@@ -104,7 +225,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
   
-  // Prevent clicks on the lightbox image from closing it
   lightboxImg.addEventListener('click', function(e) {
     e.stopPropagation();
   });
@@ -112,6 +232,34 @@ document.addEventListener('DOMContentLoaded', function() {
   document.addEventListener('keydown', function(e) {
     if (e.key === 'Escape' && lightbox.style.display === 'block') {
       closeLightbox();
+    }
+  });
+  
+  // Dark mode functionality
+  const darkModeToggle = document.getElementById('darkModeToggle');
+  const toggleIcon = document.getElementById('toggleIcon');
+  const body = document.body;
+  
+  const currentTheme = localStorage.getItem('theme') || 'light';
+  
+  if (currentTheme === 'dark') {
+    body.setAttribute('data-theme', 'dark');
+    toggleIcon.textContent = '☀️';
+  } else {
+    toggleIcon.textContent = '🌙';
+  }
+  
+  darkModeToggle.addEventListener('click', function() {
+    const currentTheme = body.getAttribute('data-theme');
+    
+    if (currentTheme === 'dark') {
+      body.removeAttribute('data-theme');
+      toggleIcon.textContent = '🌙';
+      localStorage.setItem('theme', 'light');
+    } else {
+      body.setAttribute('data-theme', 'dark');
+      toggleIcon.textContent = '☀️';
+      localStorage.setItem('theme', 'dark');
     }
   });
 });

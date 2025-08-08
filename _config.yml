@@ -15,6 +15,10 @@ masthead_title: "Soumen Sinha"
 breadcrumbs: true
 words_per_minute: 200
 search: true
+search_full_content: true
+search_provider: lunr
+lunr:
+  search_within_pages: true
 
 # Author
 author:
@@ -121,6 +125,7 @@ exclude:
   - tmp
   - Gemfile
   - Gemfile.lock
+
 
 # Output Settings
 permalink: /:categories/:title/
