@@ -29,7 +29,6 @@ tags: [experience, internships, research, industry, collaboration]
 - Developed a Splunk dashboard to track report usage metrics and integrated it with a web application into the Dell Design System
 - Enhanced operational efficiency through data-driven insights and automation
 
-### DELL Technologies
 **Intern** | *July 2023 - September 2023* | Hyderabad, India
 - Worked with Dell's DSA and product teams to optimize operations
 - Developed a Splunk dashboard to track report usage metrics and a Python application to suggest user preferences
@@ -57,10 +56,10 @@ tags: [experience, internships, research, industry, collaboration]
 
 
 ### National University of Singapore
-**Academic Intern** | *June 2022 - July 2022* | Singapore
+**Academic Intern** | *June 2022 - August 2022* | Singapore
 - Developed a custom CNN-based model (CAPNET) to detect vulnerabilities of text-based CAPTCHAs on high-traffic websites
 - Achieved grade of A+ for the research project
-- Gained experience in cybersecurity applications of machine learning
+- Worked we [Prof Amir](https://www.comp.nus.edu.sg/cs/people/amir/) and Prof [Prof Tan Wee Kek](https://www.comp.nus.edu.sg/disa/people/tanwk/).
 
 
 
