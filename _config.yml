@@ -59,7 +59,7 @@ navigation:
     - title: "About"
       url: /about/
     - title: "Research"
-      url: soumen.github.io/docs/_pages/research.md
+      url: /docs/_pages/research.md
     - title: "News"
       url: /#news
     - title: "CV"
