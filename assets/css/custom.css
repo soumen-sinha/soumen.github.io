@@ -1,4 +1,4 @@
-/* Remove the hero line and shadow */
+/* Remove the hero section's bottom border and shadow */
 .page__hero, .page__hero--overlay {
   border-bottom: none !important;
   box-shadow: none !important;
@@ -6,7 +6,7 @@
   padding-bottom: 0 !important;
 }
 
-/* Optional: Remove any leftover margin on the main page content */
-.wrap {
+/* Optional: Remove unwanted top margin */
+.page {
   margin-top: 0 !important;
 }
