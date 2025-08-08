@@ -4,7 +4,10 @@ author_profile: true
 title: "Soumen Sinha"
 header:
   overlay: false
-
+  show_overlay_excerpt: false
+  overlay_filter: 0.0
+  show_overlay_image: false
+  caption: false
 # header:
 #   overlay_color: "#000"
 #   overlay_filter: "0.3"
