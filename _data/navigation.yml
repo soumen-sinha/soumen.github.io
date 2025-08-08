@@ -2,7 +2,7 @@ main:
   - title: "About"
     url: /
   - title: "Research"
-    url: /#research-interests
+    url: /research/
   - title: "News"
     url: /#news
   - title: "CV"
