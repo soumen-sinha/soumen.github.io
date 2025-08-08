@@ -1,8 +1,3 @@
-<!-- start custom head snippets -->
-
-<!-- insert favicons. use https://realfavicongenerator.net/ -->
-
-<!-- end custom head snippets -->
 <!-- Avatar lightbox styles -->
 <style>
   .author__avatar img {
@@ -36,6 +31,7 @@
     max-height: 90%;
     border-radius: 10px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    cursor: default; /* Prevents click cursor on the image itself */
   }
   
   .lightbox .close {
@@ -46,6 +42,7 @@
     font-size: 30px;
     font-weight: bold;
     cursor: pointer;
+    z-index: 10001;
   }
   
   .lightbox .close:hover {
@@ -70,7 +67,10 @@ document.addEventListener('DOMContentLoaded', function() {
   
   const profileImg = document.querySelector('.author__avatar img');
   if (profileImg) {
-    profileImg.addEventListener('click', function() {
+    profileImg.addEventListener('click', function(event) {
+      event.preventDefault(); // Prevent any default navigation
+      event.stopPropagation(); // Stop event bubbling
+      
       lightboxImg.src = this.src;
       lightbox.style.display = 'block';
       document.body.style.overflow = 'hidden';
@@ -82,11 +82,23 @@ document.addEventListener('DOMContentLoaded', function() {
     document.body.style.overflow = 'auto';
   }
   
-  closeBtn.addEventListener('click', closeLightbox);
+  closeBtn.addEventListener('click', function(event) {
+    event.preventDefault();
+    event.stopPropagation();
+    closeLightbox();
+  });
+  
   lightbox.addEventListener('click', function(e) {
     if (e.target === lightbox) {
+      e.preventDefault();
+      e.stopPropagation();
       closeLightbox();
     }
+  });
+  
+  // Prevent clicks on the lightbox image from closing it
+  lightboxImg.addEventListener('click', function(e) {
+    e.stopPropagation();
   });
   
   document.addEventListener('keydown', function(e) {
