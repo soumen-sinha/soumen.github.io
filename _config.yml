@@ -104,12 +104,14 @@ defaults:
   - scope:
       path: ""
       type: posts
+      path: "docs/_pages"
     values:
       layout: single
       author_profile: true
       read_time: true
       share: true
       related: true
+      permalink: /:basename/
       custom_css: custom  # ← Enables your custom.css
 
 # Include & Exclude
@@ -123,6 +125,12 @@ exclude:
   - tmp
   - Gemfile
   - Gemfile.lock
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
 
 # Output Settings
 permalink: /:categories/:title/
