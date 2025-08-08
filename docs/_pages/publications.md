@@ -17,7 +17,8 @@ author_profile: true
 ## Preprints
 
 **Sinha, S.**, Rahnamayan, S., & Bidgoli, A. A. (2025). "Evolutionary Feature-wise Thresholding for Binary Representation of NLP Embeddings." arXiv preprint. [arXiv](https://arxiv.org/abs/2507.17025) (Under review)
-Sinha, S., Rana, T., Ghosh, S., & Roy, R. (2025). "A Novel Approach to Navigate the Taxonomic Hierarchy to Address Open-World Scenarios in Medicinal Plant Classification." Submitted to Computers and Electronics in Agriculture, Elsevier. [arXiv](https://arxiv.org/abs/2502.17289) (Under review)
+
+**Sinha, S.**, Rana, T., Ghosh, S., & Roy, R. (2025). "A Novel Approach to Navigate the Taxonomic Hierarchy to Address Open-World Scenarios in Medicinal Plant Classification." Submitted to Computers and Electronics in Agriculture, Elsevier. [arXiv](https://arxiv.org/abs/2502.17289) (Under review)
 
 
 ## Conference Proceedings
