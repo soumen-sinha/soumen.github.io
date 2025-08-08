@@ -2,6 +2,9 @@
 layout: home
 author_profile: true
 title: "Soumen Sinha"
+header:
+  overlay: false
+
 # header:
 #   overlay_color: "#000"
 #   overlay_filter: "0.3"
