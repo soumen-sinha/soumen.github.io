@@ -1,4 +1,8 @@
 main:
+  - title: "About"
+    url: /about/
+  - title: "Experience"
+    url: /experience/
   - title: "Research"
     url: /research/
   - title: "Publications"
@@ -8,4 +12,4 @@ main:
   - title: "CV"
     url: /assets/Soumen_CV.pdf
   - title: "Contact"
-    url: /contact/  
+    url: /contact/
