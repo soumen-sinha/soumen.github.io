@@ -59,7 +59,7 @@ navigation:
     - title: "About"
       url: /about/
     - title: "Research"
-      url: /#research-interests
+      url: /research/
     - title: "News"
       url: /#news
     - title: "CV"
