@@ -1,12 +1,11 @@
 ---
-permalink: /about/
-title: "About"
-excerpt: "About Soumen Sinha – TU Delft, AI & Machine Learning"
-last_modified_at: 2025-08-07
-toc: true
 layout: single
+title: "Soumen Sinha"  # Changed from "About"
+permalink: /about/
 author_profile: true
+toc: false
 ---
+
 
 ## About Me
 
