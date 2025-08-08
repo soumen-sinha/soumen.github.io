@@ -104,7 +104,7 @@ defaults:
   - scope:
       path: ""
       type: posts
-      path: "docs/_pages"
+      path: "/_pages"
     values:
       layout: single
       author_profile: true
