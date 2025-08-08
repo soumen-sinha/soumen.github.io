@@ -2,13 +2,21 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
 <style>
-  /* Remove top border/line from header */
-  .masthead {
+  /* Remove top border/line from header - COMPREHENSIVE */
+  .masthead,
+  .masthead__inner-wrap,
+  .greedy-nav {
     border-top: none !important;
+    border-top-width: 0 !important;
   }
   
-  .masthead__inner-wrap {
+  /* Dark mode specific - remove any top borders */
+  [data-theme="dark"] .masthead,
+  [data-theme="dark"] .masthead__inner-wrap,
+  [data-theme="dark"] .greedy-nav {
     border-top: none !important;
+    border-top-width: 0 !important;
+    box-shadow: none !important;
   }
   
   /* Style Google Scholar icon with brand color */
