@@ -59,7 +59,7 @@ navigation:
     - title: "About"
       url: /about/
     - title: "Research"
-      url: /docs/_pages/research.md
+      url: /research/
     - title: "News"
       url: /#news
     - title: "CV"
@@ -114,7 +114,7 @@ defaults:
 
 # Include & Exclude
 include:
-  - _pages
+  - docs/_pages
 exclude:
   - CHANGELOG.md
   - vendor
