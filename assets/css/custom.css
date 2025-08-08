@@ -1,0 +1,5 @@
+/* Remove the second line above page content */
+.page__content {
+  border-top: none !important;
+  box-shadow: none !important;
+}
