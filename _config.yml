@@ -108,6 +108,7 @@ defaults:
       share: true
       related: true
       toc: false
+      custom_css: custom
   # Pages defaults  
   - scope:
       path: "_pages"
