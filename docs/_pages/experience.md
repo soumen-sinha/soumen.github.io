@@ -17,13 +17,13 @@ tags: [experience, internships, research, industry, collaboration]
 - Implementing real-time audio processing solutions for embedded systems
 
 
-### Interview Kickstart
+**Interview Kickstart**
 **Intern** | *March 2024 - July 2024* | Remote, India
 - Worked with the ML and engineering teams to develop over 25 problems for the Machine Learning programs as part of the online curriculum
 - Contributed to educational content development and curriculum enhancement
 - Collaborated with cross-functional teams to improve learning outcomes
 
-### DELL Technologies
+**DELL Technologies**
 **Intern** | *January 2024 - May 2024* | Hyderabad, India
 - Collaborated with Dell's DSA and product teams to optimize operations
 - Developed a Splunk dashboard to track report usage metrics and integrated it with a web application into the Dell Design System
