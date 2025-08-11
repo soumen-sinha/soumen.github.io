@@ -12,6 +12,8 @@ author_profile: true
 ---
 ## Journals
 
+### 2025
+
 **Sinha, S.**, Bharill, N., Patel, O. P., & Jetta, M. (2025). "Active learning with Gaussian Process Regression for solving non-linear time-dependent partial differential equations." Engineering Applications of Artificial Intelligence, 160(Part B), 111879. [DOI] [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0952197625018810?dgcid=author)
 
 ## Preprints
