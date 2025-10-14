@@ -40,7 +40,7 @@ Outside of academics, I enjoy playing and watching football and am a passionate 
 ## News
 
 ### 2025
-
+- (09/10/2025) Our team won the 1st Place in the Hackathon organized by Leiden University Medical Center and Cairelab [Pictures](https://www.linkedin.com/posts/soumen-sinha-b11670211_ai-hackathon-activity-7382374947287085056-diXq?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADWrVT0Bmtvaas1sOHcX0oNvMlOdIIrqLP0)
 - (4/08/2025) "Evolutionary Feature-wise Thresholding for Binary Representation of NLP Embeddings" is now available at [arxiv](https://arxiv.org/abs/2507.17025)
 - (4/08/2025) "A novel approach to navigate the taxonomic hierarchy to address the Open-World Scenarios in Medicinal Plant Classification" is now available at [arxiv](https://arxiv.org/abs/2502.17289)
 - (23/07/2025) Paper accepted at [Engineering Applications of Artificial Intelligence (Elsevier)](https://www.sciencedirect.com/science/article/pii/S0952197625018810?dgcid=author) — *Active learning with Gaussian Process Regression for solving non-linear time-dependent partial differential equations* (Impact Factor-8)
