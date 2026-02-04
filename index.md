@@ -41,10 +41,12 @@ Outside of academics, I enjoy playing and watching football and am a passionate 
 
 
 ### 2026
+
 - (5/01/2026) I have joined [RSM.nl](https://www.rsm.global/netherlands/nl) as an AI Consultant.
 
 
 ### 2025
+
 - (24/10/2025) Delivered a talk at Leiden University Medical Center on Wound Segmentation. [Slides](https://drive.google.com/file/d/1v255ADIgfn2mdPTwW0W60TYU8CDVIMws/view?usp=sharing)
 - (09/10/2025) Our team won the 1st Place in the Hackathon organized by Leiden University Medical Center and Cairelab [Pictures](https://www.linkedin.com/posts/soumen-sinha-b11670211_ai-hackathon-activity-7382374947287085056-diXq?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADWrVT0Bmtvaas1sOHcX0oNvMlOdIIrqLP0)
 - (4/08/2025) "Evolutionary Feature-wise Thresholding for Binary Representation of NLP Embeddings" is now available at [arxiv](https://arxiv.org/abs/2507.17025)
