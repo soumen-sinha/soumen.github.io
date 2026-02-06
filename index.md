@@ -42,6 +42,9 @@ Outside of academics, I enjoy playing and watching football and am a passionate 
 
 ### 2026
 
+
+
+- (6/02/2026) I am a reviewer for [WCCI 2025](https://attend.ieee.org/wcci-2026/)
 - (5/01/2026) I have joined [RSM.nl](https://www.rsm.global/netherlands/nl) as an AI Consultant.
 
 
