@@ -42,6 +42,8 @@ Outside of academics, I enjoy playing and watching football and am a passionate 
 
 ### 2026
 
+- (16/07/2026) Our paper got accepted at 2026 ECCVw.
+- (16/07/2026) I defended my master thesis and graduated with MSc in Data Science and AI from TU Delft, Netherlands [Link to my thesis](https://repository.tudelft.nl/record/uuid:7d49e912-6309-4f87-8473-29cc6005fa17). 
 - (17/05/2026) Paper accepted at [50th IEEE COMPSAC](https://ieeecompsac.computer.org/2026/). 
 - (13/05/2026) Abstract got accpeted for [VCCA](https://computationalaudiology.com/events/vcca2026/).
 - (6/02/2026) I am a reviewer for [WCCI 2025](https://attend.ieee.org/wcci-2026/).
